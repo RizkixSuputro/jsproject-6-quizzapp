@@ -29,7 +29,16 @@ button .option {
 .footer span {
   font-family: "Lato", serif;
 }
+#result {
+  font-family: "Lato", serif;
+}
 .hide {
   font-family: "Poppins", serif;
   display: none;
+}
+.option.correct {
+  background-color: green;
+}
+.option.incorrect {
+  background-color: red;
 }
